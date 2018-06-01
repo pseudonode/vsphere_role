@@ -1,0 +1,12 @@
+[all:vars]
+ansible_connection=local
+username=admin
+password=ccenter123
+
+[local]
+localhost ansible_connection=local
+
+[vsphere]
+cloudtenant-web-tier
+cloudtenant-app-tier
+cloudtenant-db-tier
